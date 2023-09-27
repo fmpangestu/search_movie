@@ -1,0 +1,20 @@
+body{
+  background:#040D12;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 85vh; /* Membuat konten penuh tinggi layar */
+}
+
+.container > fot-bar {
+  margin-top: auto; /* Footer akan tetap di bawah konten */
+}
+.btn{
+  background-color: #040D12;
+  color: #5a8172;
+}
+.btn:hover{
+  background-color:#5a8172 ;
+  color: #040D12;
+}
